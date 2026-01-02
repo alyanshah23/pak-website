@@ -130,6 +130,10 @@
     .customtoggle button {
         cursor: pointer;
     }
+
+    #white {
+        background-color: antiquewhite;
+    }
 }
 
 @media (max-width : 770px) {
@@ -206,6 +210,10 @@
     .customtoggle button {
         cursor: pointer;
     }
+
+    #white {
+        background-color: antiquewhite;
+    }
 }
 
 @media (max-width :500px) {
@@ -245,7 +253,26 @@
         bottom: 9px;
     }
 
-    .customtoggle button {
+    .customtoggle {
         cursor: pointer;
     }
+
+    #white {
+        background-color: antiquewhite;
+    }
+
+    .filter-green {
+        filter: invert(44%) sepia(89%) saturate(5411%) hue-rotate(88deg) brightness(95%) contrast(90%);
+    }
+
+}
+
+#nav-overlay-smscreens {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+#nav-overlay-smscreens::-webkit-scrollbar {
+    display: none;
 }
